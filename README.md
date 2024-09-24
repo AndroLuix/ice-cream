@@ -1,3 +1,31 @@
+# Ice Cream Menu
+
+![Ice Cream Menu](https://res.cloudinary.com/thomasdea/image/upload/v1612825605/react-api-course/gelateria/gelato-16_bhll5v.jpg)
+
+
+
+## Descrizione
+
+L'app **Ice Cream Menu** è un'interfaccia utente per visualizzare il menu di una gelateria. Utilizza React per la creazione di componenti e gestisce le richieste API per recuperare i dati sui gusti di gelato. Gli utenti possono visualizzare diverse categorie di gelato e filtrare i gusti in base alle loro preferenze.
+Apri il link per la [demo](https://androluix.github.io/ice-cream/)
+
+## Funzionalità
+
+- **Visualizzazione dei Prodotti**: Mostra una lista di gelati con nome, immagine, descrizione e prezzo.
+- **Filtri per Categoria**: Gli utenti possono filtrare i gelati per categoria, ad esempio "cono", "coppetta", o "stick".
+- **Caricamento Dinamico**: Un messaggio di caricamento viene visualizzato mentre i dati vengono recuperati dall'API.
+- **Design Reattivo**: L'interfaccia si adatta a diverse dimensioni dello schermo.
+
+## Tecnologie Utilizzate
+
+- **React**: Per la creazione dell'interfaccia utente.
+- **React Hooks**: Per la gestione dello stato e degli effetti collaterali.
+- **CSS**: Per lo styling e il layout.
+- **API REST**: Per il recupero dei dati.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
