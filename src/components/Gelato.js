@@ -1,0 +1,29 @@
+import React from 'react'
+
+const Gelato = ({ nome, img, decrizione, prezzo, categoria }) => {
+    return (
+        <article className='gelato'>
+            <div className='img-container'>
+                <img src={img} alt={nome} className='img' />
+            </div>
+            <div className="prd-info">
+                <header className="prd-header">
+                    <div>
+                        <h5>{nome}</h5>
+                        <h6>{categoria}</h6>
+                    </div>
+                    <div>
+                        <span className="prd-prezzo">
+                            <h6 className='prd-prezzo'>
+                                {(prezzo / 100).toFixed(2)}€
+                            </h6>
+                        </span>
+                    </div>
+                </header>
+                <p>{decrizione}</p>
+            </div>
+        </article>
+    )
+}
+
+export default Gelato
