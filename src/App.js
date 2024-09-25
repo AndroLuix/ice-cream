@@ -5,9 +5,7 @@ import { useEffect } from 'react';
 import IceCreamComponents from './components/IceCreamComponents';
 
 function App() {
-  useEffect(()=>{
-    console.log(data)
-  },data)
+  
   return (
    <IceCreamComponents/>
   );

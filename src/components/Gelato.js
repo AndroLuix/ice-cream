@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Gelato = ({ nome, img, decrizione, prezzo, categoria }) => {
+const Gelato = ({ nome, img, descrizione, prezzo, categoria }) => {
     return (
         <article className='gelato'>
             <div className='img-container'>
@@ -20,7 +20,7 @@ const Gelato = ({ nome, img, decrizione, prezzo, categoria }) => {
                         </span>
                     </div>
                 </header>
-                <p>{decrizione}</p>
+                <p >{descrizione}</p>
             </div>
         </article>
     )

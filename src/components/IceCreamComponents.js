@@ -11,8 +11,14 @@ const IceCreamComponents = () => {
       <section className=' section-center'>
         <h3>Nice Cream</h3>
         <Menu />
-
       </section>
+
+      <section className='section-center'>
+        <button className="btn">
+          Add Your IceCream
+        </button>
+      </section>
+
     </div>
   )
 }

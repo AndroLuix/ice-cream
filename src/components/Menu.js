@@ -16,15 +16,17 @@ const Menu = () => {
     const [filteredProducts, setFilteredProducts] = useState(prodotti);
 
     
-
+    
     
     useEffect(() => {
         if (data && data.data && data.data.length > 0) {
           setProdotti(data.data.filter(el => !el.nome.toLowerCase().includes('testicolo')));
           setFilteredProducts(data.data.filter(el => !el.nome.toLowerCase().includes('testicolo')));
+          
         }
       }, [data.data]);
 
+    
 
 
     const categorie = Array.from(new Set(prodotti.map((el) => {
@@ -42,7 +44,10 @@ const Menu = () => {
         }
     }
 
+   
+    
 
+   
 
     return (
         <div className='container'>
